@@ -6,6 +6,8 @@ Installation:
 
 https://sass-lang.com/install
 
+Path directory should end with: \dart-sass
+
 Live Sass Compiler -- Visual Studio Code Extension:
 
 https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass&ssr=false#overview
