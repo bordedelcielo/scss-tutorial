@@ -1,5 +1,43 @@
 body {
-  font: 100% Helvetica, sans-serif;
-  color: #333;
+  color: white;
+  background-color: darkorchid;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  color: pink;
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: salmon;
+  color: pink;
+  font-size: large;
+}
+
+div div {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: pink;
+  color: white;
+  font-size: small;
 }
 /*# sourceMappingURL=styles.css.map */

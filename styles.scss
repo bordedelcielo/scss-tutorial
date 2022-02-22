@@ -1,8 +1,15 @@
-// Setting variables
-$font-stack: Helvetica, sans-serif;
-$primary-color: #333;
+@import 'base';
 
-body {
-    font: 100% $font-stack;
-    color: $primary-color;
+div {
+    display: flex;
+    justify-content: space-between;
+    background-color: salmon;
+    color: pink;
+    font-size: large;
+    div {
+        align-items: center;
+        background-color: pink;
+        color: white;
+        font-size: small;
+    }
 }
