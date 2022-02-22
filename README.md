@@ -1,4 +1,4 @@
-A simple scss ("Sassy" css) mock page following sass's online tutorial:
+A simple scss ("Sassy" css) mock page following sass's online tutorial, with attention to nesting:
 
 https://sass-lang.com/guide
 
