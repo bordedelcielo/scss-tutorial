@@ -1,6 +1,5 @@
 body {
-  color: white;
-  background-color: darkorchid;
+  color: black;
 }
 
 nav ul {
@@ -20,7 +19,7 @@ nav a {
   text-decoration: none;
 }
 
-div {
+.one {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -28,37 +27,21 @@ div {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-color: salmon;
-  color: pink;
+  color: white;
   font-size: large;
 }
 
-div div {
+.one img {
+  padding: 12px;
+}
+
+.one div {
+  padding: 12px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   background-color: pink;
   color: white;
   font-size: small;
-}
-
-.info {
-  background: DarkGray;
-  -webkit-box-shadow: 0 0 1px rgba(169, 169, 169, 0.25);
-          box-shadow: 0 0 1px rgba(169, 169, 169, 0.25);
-  color: #fff;
-}
-
-.alert {
-  background: DarkRed;
-  -webkit-box-shadow: 0 0 1px rgba(139, 0, 0, 0.25);
-          box-shadow: 0 0 1px rgba(139, 0, 0, 0.25);
-  color: #fff;
-}
-
-.success {
-  background: DarkGreen;
-  -webkit-box-shadow: 0 0 1px rgba(0, 100, 0, 0.25);
-          box-shadow: 0 0 1px rgba(0, 100, 0, 0.25);
-  color: #fff;
 }
 /*# sourceMappingURL=styles.css.map */
